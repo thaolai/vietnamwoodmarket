@@ -1,0 +1,103 @@
+/* Stylesheet / CSS */
+/*
+Name: Slick contact form
+Version: 1.0
+Author: Oussama Afellad
+Author URI: http://www.premiumfreebies.eu
+*/
+.form_contact {
+	position: relative;
+	top: 10px;
+	left: 50px; hidden;
+	margin: 0px auto;
+	padding: 20px;
+
+}
+
+.form_contact label {
+	margin: 5px 20px 0 0;
+	font-size: 14px;
+	color: #b3aba1;
+	text-transform: none;
+	text-shadow: 0px 1px 0px #fff;
+	float: left;
+	width: 150px;
+}
+
+.form_contact input[type=text],textarea,input[type=file]
+	{
+	font: 12px normal normal uppercase helvetica, arial, serif;
+	color: #7c7873;
+	background: none;
+	width: 380px;
+	height: 20px;
+	padding: 0px 10px;
+	margin: 0 0 10px 0;
+	border: 1px solid #f8f5f1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: inset 0px 0px 1px #726959;
+	-webkit-box-shadow: inset 0px 0px 1px #b3a895;
+	box-shadow: inset 0px 0px 1px #b3a895;
+}
+
+.form_contact input[type=password]
+	{
+	font: 12px normal normal uppercase helvetica, arial, serif;
+	color: #7c7873;
+	background: none;
+	width: 380px;
+	height: 20px;
+	padding: 0px 10px;
+	margin: 0 0 10px 0;
+	border: 1px solid #f8f5f1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: inset 0px 0px 1px #726959;
+	-webkit-box-shadow: inset 0px 0px 1px #b3a895;
+	box-shadow: inset 0px 0px 1px #b3a895;
+}
+
+.form_contact #submit {
+	padding-left: 300px;
+}
+
+.form_contact textarea {
+	height: 150px;
+	padding-top: 8px;
+}
+
+.form_contact textarea:focus,input[type=text]:focus {
+	background: rgba(255, 255, 255, .35);
+}
+
+.contact_detail {
+	display: block;
+	font: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	float: left;
+	padding: 30px 0 18px 70px;
+	width: 400px;
+	color: #5F5F5F;
+	border: 1px;
+}
+
+.contact_detail2 {
+	display: block;
+	font: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 400px;
+	color: #5F5F5F;
+	
+}
+
+
+.contact_detail p {
+	font-size: 15px;
+	font-weight: bold;
+}

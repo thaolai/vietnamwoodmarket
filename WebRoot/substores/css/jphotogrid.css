@@ -1,0 +1,41 @@
+#pg {
+	position: relative;
+	height: 500px;
+
+}
+
+#pg li {
+	position: relative;
+	list-style: none;
+	width: 164px;
+	height: 117px;
+	float: left;
+}
+
+#pg li.active {
+	opacity: 1;
+}
+
+#pg li.selected {
+	opacity: 1;
+	z-index: 99;
+	-moz-box-shadow: 0px 0px 10px #fff;
+	-webkit-box-shadow: 0px 0px 10px #fff;
+    background-color: black;
+}
+
+#pg li img {
+	display: block;
+	width: 100%;
+}
+
+#pg li p {
+	color: white;
+	
+	font-size: 12px;
+}
+
+#pg ul,li {
+	margin: 0;
+	padding: 0;
+}

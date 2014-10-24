@@ -1,0 +1,38 @@
+dl {
+	width: 250px;
+}
+
+dt {
+	border-bottom: 1px solid white;
+	font-size: 12px;
+	padding: 5px 0px;
+	list-style-type: none;
+	display: block;
+	background-image: url(../images/bullet.jpg);
+	background-position: left 2px;
+	background-repeat: no-repeat;
+	font-family: Tahoma, sans-serif;
+}
+
+dt a {
+	text-decoration: underline;
+	padding: 0px 18px;
+	color: #027DD4;
+}
+
+dt a:visited,.item a:visited {
+	text-decoration: underline
+}
+
+dt a:hover,.item a:hover {
+	text-decoration: none
+}
+
+dd a {
+	
+}
+
+ul {
+	list-style: none;
+	padding: 5px;
+}

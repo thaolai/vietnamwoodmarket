@@ -1,0 +1,38 @@
+.change_link {
+	display: block;
+	width: 15px;
+	height: 15px;
+	font-size: 10pt;
+	background-color: #eee;
+	float: left;
+	margin-right: 5px;
+	text-align: center;
+	margin-top: 10px;
+	border: 1px solid #bbb;
+	text-decoration: none;
+	color: #027DD4;
+	font-weight: bold;
+}
+
+.adv_centre {
+	position: relative;
+	float: right;
+	display: block;
+	height: 120px;
+	width: 470px;
+}
+
+.adv_centre  a:hover {
+	color: #ddf3ff;
+}
+
+.adv_centre img {
+	height: 130px;
+	width: 450px;
+}
+
+.links {
+	display: block;
+	float: right;
+	padding-right: 20px;
+}
