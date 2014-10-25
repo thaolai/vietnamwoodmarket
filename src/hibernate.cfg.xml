@@ -8,9 +8,9 @@
     <session-factory>
         <property name="hbm2ddl.auto">update</property>
         <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
-        <property name="connection.url">jdbc:mysql://localhost/vietnamwoodmarket</property>
-        <property name="connection.username">root</property>
-        <property name="connection.password">sesame</property>
+        <property name="connection.url">jdbc:mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/vietnamwoodmarket</property>
+        <property name="connection.username">adminTRe9FSW</property>
+        <property name="connection.password">54nI6tGN8LL8</property>
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
    
     </session-factory>
